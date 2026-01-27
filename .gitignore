@@ -1,0 +1,38 @@
+# Virtual env
+.venv/
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local secrets / keys
+.env.local
+*.key
+secrets/
+
+# Lab-specific
+*.db
+chroma_data/
+chroma_rag/
+chroma_rag_mock/
+chroma_rag_simple/

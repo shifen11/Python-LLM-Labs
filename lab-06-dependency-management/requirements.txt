@@ -1,0 +1,2 @@
+# lab-06 示例：仅作演示，实际使用根目录 requirements.txt
+# 创建 venv 后：pip install -r ../requirements.txt
