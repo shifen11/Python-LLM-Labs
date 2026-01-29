@@ -12,3 +12,10 @@ for fruit in fruits:
 a=range(5)
 aa=type(a).__name__
 print(aa)
+s = "Python"
+print(f"'Python'[1:4]   = {s[0:2:]!r}")  # yth
+print(f"'Python'[::2]   = {s[::2]!r}")  # Pto
+print(f"'Python'[::-1]  = {s[::-1]!r}")  # nohtyP
+lst = [0, 1, 2, 3, 4, 5]
+print(f"lst[-2:] = {lst[-2:]}")
+print(f"lst[:4]  = {lst[:4]}")

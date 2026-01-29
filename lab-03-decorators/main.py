@@ -4,6 +4,8 @@ lab-03-decorators: 装饰器（Python 版 AOP）
 import functools
 import time
 
+from sympy.codegen.ast import none
+
 
 def log_call(f):
     """简单装饰器：在调用前后打印"""
@@ -29,7 +31,9 @@ def timing(f):
 
 
 @log_call
-def add(a, b):
+def add(a, b, d=None):
+
+    return a + b + d.get(1,0)
     return a + b
 
 
@@ -49,7 +53,7 @@ def both(a, b):
 
 if __name__ == "__main__":
     print("=== @log_call ===")
-    add(2, 3)
+    add(2, 3,{2:2})
     print("\n=== @timing ===")
     slow_demo()
     print("\n=== 叠放 @log_call @timing ===")
