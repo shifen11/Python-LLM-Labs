@@ -1,82 +1,61 @@
 """
 lab-00-06-string-operations: 字符串操作
+
+运行时会展示：三种格式化方式、常用方法（大小写、strip、split、join、replace、find）及「字符串不可变」。
 """
 
-# ========== 字符串格式化 ==========
-print("=== 字符串格式化 ===")
-name = "Alice"
-age = 25
-
-# 方法1：f-string（推荐，Python 3.6+）
+print("=== 1. 字符串格式化 ===\n")
+print("  >>> [说明] 推荐 f-string；format() 和 % 为旧式，了解即可")
+name, age = "Alice", 25
 message1 = f"我的名字是 {name}，今年 {age} 岁"
-print(message1)
-
-# 方法2：format()
+print(f"  f-string: {message1}")
 message2 = "我的名字是 {}，今年 {} 岁".format(name, age)
-print(message2)
-
-# 方法3：% 格式化（旧式）
+print(f"  format(): {message2}")
 message3 = "我的名字是 %s，今年 %d 岁" % (name, age)
-print(message3)
+print(f"  %% 格式化: {message3}\n")
 
-# ========== 字符串方法 ==========
-print("\n=== 大小写转换 ===")
+print("=== 2. 大小写转换 ===\n")
 text = "Hello World"
-print(f"原字符串：{text}")
-print(f"转大写：{text.upper()}")
-print(f"转小写：{text.lower()}")
-print(f"首字母大写：{text.capitalize()}")
+print(f"  原字符串: {text}")
+print(f"  .upper() -> {text.upper()}")
+print(f"  .lower() -> {text.lower()}")
+print(f"  .capitalize() -> {text.capitalize()}\n")
 
-print("\n=== 去除空白 ===")
+print("=== 3. 去除空白 ===\n")
 text_with_spaces = "  Python  "
-print(f"原字符串：'{text_with_spaces}'")
-print(f"去除首尾空白：'{text_with_spaces.strip()}'")
-print(f"去除左侧空白：'{text_with_spaces.lstrip()}'")
-print(f"去除右侧空白：'{text_with_spaces.rstrip()}'")
+print(f"  原字符串: '{text_with_spaces}'")
+print(f"  .strip()  -> '{text_with_spaces.strip()}'")
+print(f"  .lstrip() -> '{text_with_spaces.lstrip()}'")
+print(f"  .rstrip() -> '{text_with_spaces.rstrip()}'\n")
 
-print("\n=== 分割字符串 ===")
+print("=== 4. 分割与连接 ===\n")
+print("  >>> [说明] split(分隔符) 得到列表；分隔符.join(列表) 连接成字符串")
 sentence = "苹果,香蕉,橙子"
 fruits = sentence.split(",")
-print(f"原字符串：{sentence}")
-print(f"分割后：{fruits}")
-
-print("\n=== 连接字符串 ===")
+print(f"  '苹果,香蕉,橙子'.split(',') -> {fruits}")
 fruits_list = ["苹果", "香蕉", "橙子"]
 joined = ",".join(fruits_list)
-print(f"列表：{fruits_list}")
-print(f"连接后：{joined}")
+print(f"  ','.join(...) -> {joined}\n")
 
-print("\n=== 替换 ===")
+print("=== 5. 替换与查找 ===\n")
 text = "我喜欢Java"
 new_text = text.replace("Java", "Python")
-print(f"原字符串：{text}")
-print(f"替换后：{new_text}")
-
-print("\n=== 查找 ===")
+print(f"  .replace('Java', 'Python') -> {new_text}")
 text = "Python is great"
-print(f"原字符串：{text}")
-print(f"'is' 的位置：{text.find('is')}")
-print(f"'Java' 的位置：{text.find('Java')}")  # 找不到返回 -1
+print(f"  .find('is') -> {text.find('is')}（找不到返回 -1）")
+print(f"  'Python' in text -> {'Python' in text}\n")
 
-if "Python" in text:
-    print("找到了 'Python'")
-
-print("\n=== 字符串拼接 ===")
-# 方法1：使用 +
+print("=== 6. 字符串拼接 ===\n")
+print("  >>> [说明] 用 + 拼接少量字符串；大量片段用 join 更高效")
 greeting = "Hello" + " " + "World"
-print(f"拼接结果：{greeting}")
+print(f"  '+' 拼接: {greeting}")
+greeting2 = " ".join(["Hello", "World"])
+print(f"  join: {greeting2}\n")
 
-# 方法2：使用 join（更高效）
-words = ["Hello", "World"]
-greeting2 = " ".join(words)
-print(f"join 结果：{greeting2}")
-
-# ========== 字符串是不可变的 ==========
-print("\n=== 字符串不可变 ===")
+print("=== 7. 字符串不可变 ===\n")
+print("  >>> [说明] 不能写 s[0]='x'，要「修改」只能生成新字符串")
 text = "Hello"
-# text[0] = "h"  # 这行会报错！字符串不能修改
-
-# 要修改，需要创建新字符串
+# text[0] = "h"  # 会报错
 new_text = "h" + text[1:]
-print(f"原字符串：{text}")
-print(f"新字符串：{new_text}")
+print(f"  原字符串: {text}")
+print(f"  新字符串（首字母改小写）: {new_text}")
