@@ -20,6 +20,10 @@
 python main.py
 ```
 
+## 练习题
+
+练习题见 [exercises.py](./exercises.py)，在 lab 目录下运行 `python exercises.py` 完成并自测。
+
 ## 学习目标
 
 - 掌握字符串格式化方法

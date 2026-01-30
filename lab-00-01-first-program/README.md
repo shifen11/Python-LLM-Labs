@@ -15,8 +15,6 @@
 python main.py
 ```
 
-## 学习目标
+## 练习题
 
-- 理解 Python 程序的基本结构
-- 掌握如何输出内容
-- 了解注释的作用
+练习题见 [exercises.py](./exercises.py)，在 lab 目录下运行 `python exercises.py` 完成并自测。

@@ -16,3 +16,7 @@ python main.py
 ```
 
 注意：会发起真实 HTTP 请求，需网络。
+
+## 练习题
+
+练习题见 [exercises.py](./exercises.py)，在 lab 目录下运行 `python exercises.py` 完成并自测。

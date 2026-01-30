@@ -19,3 +19,7 @@ python main.py
 - **ChromaDB-only**：仅需 `chromadb`、`numpy`，演示文档切分 → 向量存储 → 检索。
 - **LangChain**：安装上述 LangChain 相关包后，会额外跑 LangChain + Chroma 检索流程。  
 无 `OPENAI_API_KEY` 时用随机向量代替 embedding，不调用 LLM。
+
+## 练习题
+
+练习题见 [exercises.py](./exercises.py)，在 lab 目录下运行 `python exercises.py` 完成并自测。

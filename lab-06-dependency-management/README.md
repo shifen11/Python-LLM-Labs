@@ -18,3 +18,7 @@ python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+## 练习题
+
+练习题见 [exercises.py](./exercises.py)，在 lab 目录下运行 `python exercises.py` 查看题目与自测（练习 1～3 需在终端执行命令）。

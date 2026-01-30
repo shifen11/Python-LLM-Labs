@@ -19,3 +19,7 @@ uvicorn main:app --reload
 
 - http://127.0.0.1:8000/
 - http://127.0.0.1:8000/docs
+
+## 练习题
+
+练习题见 [exercises.py](./exercises.py)，在 lab 目录下实现路由后运行 `uvicorn exercises:app --reload` 自测。

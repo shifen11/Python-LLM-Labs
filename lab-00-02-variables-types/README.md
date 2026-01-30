@@ -5,13 +5,8 @@
 ## 知识点
 
 - 变量的定义：`变量名 = 值`（无需声明类型）
-- 基本数据类型：
-  - `int`：整数（如 42, -10）
-  - `float`：浮点数（如 3.14, -0.5）
-  - `str`：字符串（用单引号或双引号包裹）
-  - `bool`：布尔值（`True` 或 `False`）
-- `type()` 函数查看类型
-- 类型转换：`int()`, `float()`, `str()`, `bool()`
+- 基本数据类型：`int`、`float`、`str`、`bool`
+- `type()` 与类型转换：`int()`、`float()`、`str()`、`bool()`
 
 ## 运行
 
@@ -19,8 +14,6 @@
 python main.py
 ```
 
-## 学习目标
+## 练习题
 
-- 理解 Python 的动态类型
-- 掌握四种基本数据类型
-- 学会类型转换
+练习题见 [exercises.py](./exercises.py)，在 lab 目录下运行 `python exercises.py` 完成并自测。

@@ -16,3 +16,7 @@ python main.py
 ```
 
 ChromaDB 数据会写入 `./chroma_data`（可在 `.gitignore` 中排除）。
+
+## 练习题
+
+练习题见 [exercises.py](./exercises.py)，在 lab 目录下运行 `python exercises.py` 完成并自测。

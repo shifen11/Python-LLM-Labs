@@ -18,3 +18,7 @@ python main.py
 ```
 
 运行时会打印各魔术方法被触发的时机，便于理解调用顺序。
+
+## 练习题
+
+练习题见 [exercises.py](./exercises.py)，在 lab 目录下运行 `python exercises.py` 完成并自测。
