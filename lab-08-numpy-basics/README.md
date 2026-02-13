@@ -1,4 +1,4 @@
-# lab-07-numpy-basics
+# lab-08-numpy-basics
 
 **多维数组与矩阵运算**
 

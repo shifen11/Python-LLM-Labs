@@ -24,6 +24,7 @@
 | [lab-00-06-string-operations](./lab-00-06-string-operations) | 字符串操作 | 格式化、常用方法 |
 | [lab-00-07-file-operations](./lab-00-07-file-operations) | 文件操作 | 读写文本文件 |
 | [lab-00-08-exception-handling](./lab-00-08-exception-handling) | 异常处理 | try/except/finally |
+| [lab-00-09-oop-basics](./lab-00-09-oop-basics) | 面向对象基础 | 类、对象、继承、多态 |
 
 ---
 
@@ -31,11 +32,10 @@
 
 目标：改掉「用 Java 写 Python」的习惯，理解 Python 的动态特性和语法糖。
 
-目标：改掉「用 Java 写 Python」的习惯，理解 Python 的动态特性和语法糖。
-
 | Lab | 主题 | 说明 |
 |-----|------|------|
 | [lab-01-basic-syntax](./lab-01-basic-syntax) | 变量类型、切片、列表推导式 | 基础语法与 Pythonic 写法 |
+| [lab-06-typing-hints](./lab-06-typing-hints) | 类型注解 | typing 模块、类型提示 |
 | [lab-02-functions-advanced](./lab-02-functions-advanced) | 解构赋值、`*args` / `**kwargs` | 函数进阶 |
 | [lab-03-decorators](./lab-03-decorators) | 装饰器（Python 版 AOP） | 非常重要 |
 | [lab-04-context-managers](./lab-04-context-managers) | `with` 与上下文管理器 | 对比 Java try-with-resources |
@@ -49,10 +49,10 @@ AI 开发中，数据处理占大部分时间。
 
 | Lab | 主题 | 说明 |
 |-----|------|------|
-| [lab-06-dependency-management](./lab-06-dependency-management) | 虚拟环境与包管理 | Conda / venv |
-| [lab-07-numpy-basics](./lab-07-numpy-basics) | 多维数组与矩阵运算 | 大模型底层数学基础 |
-| [lab-08-pandas-dataframes](./lab-08-pandas-dataframes) | 表格化数据清洗与分析 | Pandas |
-| [lab-09-pydantic-validation](./lab-09-pydantic-validation) | Pydantic 类型校验与模型定义 | 类似 Java Bean 校验 |
+| [lab-07-dependency-management](./lab-07-dependency-management) | 虚拟环境与包管理 | Conda / venv |
+| [lab-08-numpy-basics](./lab-08-numpy-basics) | 多维数组与矩阵运算 | 大模型底层数学基础 |
+| [lab-09-pandas-dataframes](./lab-09-pandas-dataframes) | 表格化数据清洗与分析 | Pandas |
+| [lab-10-pydantic-validation](./lab-10-pydantic-validation) | Pydantic 类型校验与模型定义 | 类似 Java Bean 校验 |
 
 ---
 
@@ -62,9 +62,11 @@ AI 开发中，数据处理占大部分时间。
 
 | Lab | 主题 | 说明 |
 |-----|------|------|
-| [lab-10-asyncio-concurrency](./lab-10-asyncio-concurrency) | `async` / `await` 异步模型 | asyncio |
-| [lab-11-api-integration](./lab-11-api-integration) | 调用外部 API | httpx / requests |
-| [lab-12-fastapi-service](./lab-12-fastapi-service) | 高性能 Web 接口 | 类似 Spring Boot 控制层 |
+| [lab-11-asyncio-concurrency](./lab-11-asyncio-concurrency) | `async` / `await` 异步模型 | asyncio |
+| [lab-12-api-integration](./lab-12-api-integration) | 调用外部 API | httpx / requests |
+| [lab-13-testing-basics](./lab-13-testing-basics) | 测试基础 | pytest、fixture |
+| [lab-14-database-basics](./lab-14-database-basics) | 数据库操作 | SQLAlchemy ORM |
+| [lab-15-fastapi-service](./lab-15-fastapi-service) | 高性能 Web 接口 | 类似 Spring Boot 控制层 |
 
 ---
 
@@ -74,9 +76,9 @@ AI 开发中，数据处理占大部分时间。
 
 | Lab | 主题 | 说明 |
 |-----|------|------|
-| [lab-13-openai-sdk](./lab-13-openai-sdk) | 流式输出与 Token 计算 | OpenAI SDK |
-| [lab-14-vector-databases](./lab-14-vector-databases) | 向量数据库 | FAISS / ChromaDB |
-| [lab-15-langchain-rag](./lab-15-langchain-rag) | 简单 RAG 系统 | 检索增强生成 |
+| [lab-16-openai-sdk](./lab-16-openai-sdk) | 流式输出与 Token 计算 | OpenAI SDK |
+| [lab-17-vector-databases](./lab-17-vector-databases) | 向量数据库 | FAISS / ChromaDB |
+| [lab-18-langchain-rag](./lab-18-langchain-rag) | 简单 RAG 系统 | 检索增强生成 |
 
 ---
 

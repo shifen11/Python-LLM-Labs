@@ -8,14 +8,26 @@ lab-00-02 练习题：变量与基本数据类型
 # 定义变量 a=10, b=3.14, c="hello", d=True，并依次打印它们的类型（用 type(...).__name__）
 # 期望输出: int / float / str / bool（顺序对应 a,b,c,d）
 def exercise_1():
-    pass
+    a=10
+    b=3.14
+    c="hello"
+    d=True
 
 
+    atype= {type(a).__name__}
+    btype= {type(b).__name__}
+    ctype= {type(c).__name__}
+    dtype= {type(d).__name__}
+    print(f"a的数据类型是{atype}")
+    print(f"b的数据类型是{btype}")
+    print(f"c的数据类型是{ctype}")
+    print(f"d的数据类型是{dtype}")
 # ========== 练习 2 ==========
 # 将字符串 "42" 转成整数，将整数 100 转成字符串，打印转换后的结果
 # 期望输出: 42 和 '100'（或 "100"）
 def exercise_2():
-    pass
+    a=42
+
 
 
 # ========== 练习 3 ==========

@@ -1,4 +1,4 @@
-# lab-12-fastapi-service
+# lab-15-fastapi-service
 
 **高性能 Web 接口（类似 Spring Boot 控制层）**
 

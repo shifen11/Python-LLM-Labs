@@ -1,4 +1,4 @@
-# lab-15-langchain-rag
+# lab-18-langchain-rag
 
 **简单 RAG（检索增强生成）**
 

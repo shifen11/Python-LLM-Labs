@@ -8,6 +8,7 @@ print("=== 1. 整数 int ===\n")
 print("  >>> [说明] 整数无大小限制（仅受内存限制），与 Java 的 int/long 不同")
 age = 25
 count = -10
+var = {type(age).__name__}
 print(f"  age = {age}, type(age) = {type(age).__name__}")
 print(f"  count = {count}\n")
 

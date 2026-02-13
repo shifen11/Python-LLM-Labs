@@ -1,4 +1,4 @@
-# lab-09-pydantic-validation
+# lab-10-pydantic-validation
 
 **Pydantic：类型校验与模型定义**
 

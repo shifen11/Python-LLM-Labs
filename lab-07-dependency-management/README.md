@@ -1,4 +1,4 @@
-# lab-06-dependency-management
+# lab-07-dependency-management
 
 **虚拟环境与包管理**
 
