@@ -25,6 +25,7 @@
 | [lab-00-07-file-operations](./lab-00-07-file-operations) | 文件操作 | 读写文本文件 |
 | [lab-00-08-exception-handling](./lab-00-08-exception-handling) | 异常处理 | try/except/finally |
 | [lab-00-09-oop-basics](./lab-00-09-oop-basics) | 面向对象基础 | 类、对象、继承、多态 |
+| [lab-00-10-functional-basics](./lab-00-10-functional-basics) | 函数式编程基础 | lambda、map/filter/reduce、闭包 |
 
 ---
 
@@ -62,11 +63,13 @@ AI 开发中，数据处理占大部分时间。
 
 | Lab | 主题 | 说明 |
 |-----|------|------|
-| [lab-11-asyncio-concurrency](./lab-11-asyncio-concurrency) | `async` / `await` 异步模型 | asyncio |
-| [lab-12-api-integration](./lab-12-api-integration) | 调用外部 API | httpx / requests |
-| [lab-13-testing-basics](./lab-13-testing-basics) | 测试基础 | pytest、fixture |
-| [lab-14-database-basics](./lab-14-database-basics) | 数据库操作 | SQLAlchemy ORM |
-| [lab-15-fastapi-service](./lab-15-fastapi-service) | 高性能 Web 接口 | 类似 Spring Boot 控制层 |
+| [lab-11-network-basics](./lab-11-network-basics) | 网络编程基础 | TCP/UDP、Socket、阻塞/非阻塞 |
+| [lab-12-asyncio-concurrency](./lab-12-asyncio-concurrency) | `async` / `await` 异步模型 | asyncio |
+| [lab-13-http-protocol](./lab-13-http-protocol) | HTTP 协议入门 | 请求/响应、状态码、REST API |
+| [lab-14-api-integration](./lab-14-api-integration) | 调用外部 API | httpx / requests |
+| [lab-15-testing-basics](./lab-15-testing-basics) | 测试基础 | pytest、fixture |
+| [lab-16-database-basics](./lab-16-database-basics) | 数据库操作 | SQLAlchemy ORM |
+| [lab-17-fastapi-service](./lab-17-fastapi-service) | 高性能 Web 接口 | 类似 Spring Boot 控制层 |
 
 ---
 

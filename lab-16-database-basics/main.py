@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-lab-14-database-basics - 数据库操作
+lab-16-database-basics - 数据库操作
 
 本脚本演示使用 SQLAlchemy ORM 进行数据库操作。
 """
@@ -13,7 +13,7 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, Session
 # ========== 1. SQLAlchemy 简介 ==========
 
 print("=" * 60)
-print("lab-14-database-basics - 数据库操作")
+print("lab-16-database-basics - 数据库操作")
 print("=" * 60)
 
 print("\n1. SQLAlchemy 简介")

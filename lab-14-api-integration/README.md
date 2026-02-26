@@ -1,4 +1,4 @@
-# lab-12-api-integration
+# lab-14-api-integration
 
 **使用 httpx / requests 调用外部 API**
 

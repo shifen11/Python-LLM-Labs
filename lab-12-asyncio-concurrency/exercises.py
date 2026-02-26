@@ -1,5 +1,5 @@
 """
-lab-10 练习题：async/await
+lab-12 练习题：async/await
 运行: python exercises.py
 """
 

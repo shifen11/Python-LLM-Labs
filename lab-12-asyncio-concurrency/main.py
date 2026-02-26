@@ -1,5 +1,5 @@
 """
-lab-10-asyncio-concurrency: async/await 异步模型
+lab-12-asyncio-concurrency: async/await 异步模型
 
 运行时会展示：顺序 await 与 asyncio.gather 并发的耗时差异，理解「协程」与「事件循环」。
 """

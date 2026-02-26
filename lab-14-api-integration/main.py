@@ -1,5 +1,5 @@
 """
-lab-11-api-integration: 调用外部 API（requests / httpx）
+lab-14-api-integration: 调用外部 API（requests / httpx）
 
 运行时会展示：requests 同步 GET、httpx 同步/异步 GET，以及 response.json()、raise_for_status()。
 """

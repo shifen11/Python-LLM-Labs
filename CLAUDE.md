@@ -6,10 +6,10 @@
 
 Python-LLM-Labs 是一个教育性仓库，通过渐进式实验室结构学习 Python 基础知识，重点关注 AI/LLM 应用。项目分为 4 个阶段：
 
-- **第零阶段**：Python 基础入门（labs 00-01 至 00-09）- 零基础入门
+- **第零阶段**：Python 基础入门（labs 00-01 至 00-10）- 零基础入门，新增函数式编程基础
 - **第一阶段**：Pythonic 基础（labs 01 至 05）- 从 Java 过渡到 Python 风格
 - **第二阶段**：工程化与数据处理（labs 06, 08 至 10）- NumPy、Pandas、Pydantic
-- **第三阶段**：并发与网络编程（labs 11 至 15）- asyncio、API 集成、测试、数据库、FastAPI
+- **第三阶段**：并发与网络编程（labs 11 至 17）- 网络编程、asyncio、HTTP 协议、API 集成、测试、数据库、FastAPI
 - **第四阶段**：LLM 应用（labs 16 至 18）- OpenAI SDK、向量数据库、LangChain RAG
 
 ## 实验室结构
@@ -35,16 +35,16 @@ cd lab-XX-<名称>
 python exercises.py
 ```
 
-测试实验室（lab-13-testing-basics）：
+测试实验室（lab-15-testing-basics）：
 ```bash
-cd lab-13-testing-basics
+cd lab-15-testing-basics
 pytest
 pytest test_example.py -v  # 详细输出
 ```
 
-FastAPI 服务（lab-15-fastapi-service）：
+FastAPI 服务（lab-17-fastapi-service）：
 ```bash
-cd lab-15-fastapi-service
+cd lab-17-fastapi-service
 uvicorn main:app --reload
 # 然后访问 http://127.0.0.1:8000 和 http://127.0.0.1:8000/docs
 ```

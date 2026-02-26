@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# lab-13-testing-basics - 测试基础
+# lab-15-testing-basics - 测试基础
 
 print("=" * 60)
-print("lab-13-testing-basics - 测试基础")
+print("lab-15-testing-basics - 测试基础")
 print("=" * 60)
 
 # ========== 1. pytest 简介 ==========
@@ -96,7 +96,7 @@ print("-" * 60)
 print("本实验室包含一个测试文件 test_example.py，可以实际运行 pytest 查看效果。")
 
 print("\n运行命令：")
-print("  cd lab-13-testing-basics")
+print("  cd lab-15-testing-basics")
 print("  pytest")
 
 print("\n查看详细输出：")

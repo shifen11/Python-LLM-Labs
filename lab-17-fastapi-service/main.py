@@ -1,5 +1,5 @@
 """
-lab-12-fastapi-service: 高性能 Web 接口（FastAPI）
+lab-17-fastapi-service: 高性能 Web 接口（FastAPI）
 
 运行方式: uvicorn main:app --reload
 然后访问 http://127.0.0.1:8000 与 http://127.0.0.1:8000/docs
