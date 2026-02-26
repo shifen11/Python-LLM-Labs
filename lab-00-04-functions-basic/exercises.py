@@ -9,6 +9,9 @@ lab-00-04 练习题：函数基础
 # 期望输出: 5
 def exercise_1():
     # 先 def add(a, b): ...
+    def add(a, b):
+        return a + b
+    print(add(2, 3))
     pass
 
 
@@ -16,6 +19,10 @@ def exercise_1():
 # 定义函数 greet(name, greeting="Hello")，打印 greeting + ", " + name。分别用默认值和传入 "Hi" 调用
 # 期望输出: Hello, 名字 和 Hi, 名字（两行）
 def exercise_2():
+    def greet(name,greeting="Hello"):
+        return greeting + ", " + name
+    print(greet("Bob"))
+    print(greet("Alice", greeting="Hi"))
     pass
 
 
@@ -23,6 +30,7 @@ def exercise_2():
 # 定义函数 get_first_two(lst)，返回列表的前两个元素（用切片）。打印 get_first_two([10, 20, 30])
 # 期望输出: [10, 20]
 def exercise_3():
+    def get_first_two(lst)
     pass
 
 

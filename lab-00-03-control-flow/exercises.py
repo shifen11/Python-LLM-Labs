@@ -2,6 +2,9 @@
 lab-00-03 练习题：控制流
 运行: python exercises.py
 """
+from itertools import count
+
+from sympy import print_glsl
 
 
 # ========== 练习 1 ==========
@@ -9,6 +12,14 @@ lab-00-03 练习题：控制流
 # 期望输出: 及格（x=70 在 >=60 分支）
 def exercise_1():
     x = 70
+    if x>=90:
+        print("youxiu")
+    elif x>=80:
+        print("lianghao")
+    elif x>=60:
+        print("jige")
+    else:
+        print("bujige")
     # 你的代码
     pass
 
@@ -17,6 +28,8 @@ def exercise_1():
 # 用 for 和 range(1, 6) 打印 1 到 5 的平方（每行一个：1 的平方是 1 ...）
 # 期望输出: 1 的平方是 1 / 2 的平方是 4 / ... / 5 的平方是 25
 def exercise_2():
+    for i in range(1,6):
+        print(f"{i}的平方是{i**2}")
     pass
 
 
@@ -24,6 +37,10 @@ def exercise_2():
 # 用 while 实现：count 从 0 开始，每次加 1，当 count 达到 5 时停止，并打印每次的 count
 # 期望输出: count = 0 到 count = 4（共 5 行）
 def exercise_3():
+    count = 0
+    while count<5:
+        print(f"count={count}")
+        count += 1
     pass
 
 
@@ -31,6 +48,10 @@ def exercise_3():
 # 用 for 遍历列表 [3, 7, 2, 9]，遇到大于 5 的数就 break，打印「遇到 x，停止」
 # 期望输出: 遇到 7，停止（7 是第一个 >5 的）
 def exercise_4():
+    for i in [3,7,2,9]:
+        if i>5:
+            print(f"遇到{i}停止")
+            break
     pass
 
 

@@ -1,4 +1,4 @@
-# lab-17-vector-databases
+# lab-19-vector-databases
 
 **向量数据库：FAISS / ChromaDB 增删改查**
 

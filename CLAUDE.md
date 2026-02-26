@@ -10,7 +10,7 @@ Python-LLM-Labs 是一个教育性仓库，通过渐进式实验室结构学习 
 - **第一阶段**：Pythonic 基础（labs 01 至 05）- 从 Java 过渡到 Python 风格
 - **第二阶段**：工程化与数据处理（labs 06, 08 至 10）- NumPy、Pandas、Pydantic
 - **第三阶段**：并发与网络编程（labs 11 至 17）- 网络编程、asyncio、HTTP 协议、API 集成、测试、数据库、FastAPI
-- **第四阶段**：LLM 应用（labs 16 至 18）- OpenAI SDK、向量数据库、LangChain RAG
+- **第四阶段**：LLM 应用（labs 18 至 20）- OpenAI SDK、向量数据库、LangChain RAG
 
 ## 实验室结构
 

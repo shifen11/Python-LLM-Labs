@@ -79,9 +79,9 @@ AI 开发中，数据处理占大部分时间。
 
 | Lab | 主题 | 说明 |
 |-----|------|------|
-| [lab-16-openai-sdk](./lab-16-openai-sdk) | 流式输出与 Token 计算 | OpenAI SDK |
-| [lab-17-vector-databases](./lab-17-vector-databases) | 向量数据库 | FAISS / ChromaDB |
-| [lab-18-langchain-rag](./lab-18-langchain-rag) | 简单 RAG 系统 | 检索增强生成 |
+| [lab-18-openai-sdk](./lab-18-openai-sdk) | 流式输出与 Token 计算 | OpenAI SDK |
+| [lab-19-vector-databases](./lab-19-vector-databases) | 向量数据库 | FAISS / ChromaDB |
+| [lab-20-langchain-rag](./lab-20-langchain-rag) | 简单 RAG 系统 | 检索增强生成 |
 
 ---
 

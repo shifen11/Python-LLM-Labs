@@ -1,4 +1,4 @@
-# lab-16-openai-sdk
+# lab-18-openai-sdk
 
 **流式输出（Streaming）与 Token 计算**
 
